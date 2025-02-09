@@ -6,7 +6,7 @@ from ultralytics import YOLO
 from PIL import Image
 
 # Configure Gemini API (Replace with your API key)
-genai.configure(api_key="AIzaSyC7b0sYHvHjymTEo68Dp1aWYP04qUOcQzE")
+genai.configure(api_key="Your api key")
 
 # Load YOLOv8 Model
 model = YOLO("yolov8n.pt")
